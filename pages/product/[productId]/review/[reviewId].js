@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
 
 function Review() {
-    const { productId, reviewId } = useRouter().query
+    
+    const { productId, reviewId } = useRouter().query   
 
     return(
         <h1>
